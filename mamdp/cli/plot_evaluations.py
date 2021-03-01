@@ -111,6 +111,8 @@ def main(argv: Optional[Sequence[str]] = None) -> None:
     )
 
     if args.output:
+        plt.rcParams["pdf.fonttype"] = 42
+        plt.rcParams["ps.fonttype"] = 42
         if str(args.output).endswith(".pgf"):
             plt.rcParams.update(
                 {
