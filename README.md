@@ -1,5 +1,5 @@
 # MAMDP Experiments
-Code for the paper "How RL Agents Behave When Their Actions Are Modified"
+Code for the paper [How RL Agents Behave When Their Actions Are Modified](https://arxiv.org/abs/2102.07716)
 by Eric Langlois and Tom Everitt (AAAI 2021).
 
 ## Install
